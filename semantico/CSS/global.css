@@ -7,12 +7,22 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     background-color: #fdfdfd;
-    color: black;
+    color: rgb(66, 76, 209);
 }
 
 .site-header{
-    background-color: rgb(8, 255, 41);
-    color: #e90505;
+    background-color: rgb(133, 172, 230);
+    color: #35378a;
     padding: 1rem;
     text-align: center;
+}
+.nav-list {
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+.site-title{
+    margin-bottom: 10px;
+    font-size: 2em;
 }

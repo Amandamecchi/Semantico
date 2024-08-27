@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: #fdfdfd;
+    color: black;
+}
+
+.site-header{
+    background-color: rgb(8, 255, 41);
+    color: #e90505;
+    padding: 1rem;
+    text-align: center;
+}

@@ -11,8 +11,8 @@ body{
 }
 
 .site-header{
-    background-color: rgb(179, 199, 228);
-    color: #0004f0;
+    background-color: rgb(141, 186, 228);
+    color: #021c55;
     padding: 1rem;
     text-align: center;
 }
@@ -23,12 +23,127 @@ body{
 a{
     text-decoration: none;
 }
+
 .site-title{
     margin-bottom: 10px;
     font-size: 2em;
 }
+
 .main-nav .nav-list{
     list-style: none;
     display: flex;
     justify-content: center;
 }
+
+.main-nav{
+    margin: 0 15px;
+}
+
+.main-nav .nav-link{
+    color: #9c2929;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.main-nav .nav-link:hover{
+    color: rgb(255, 217, 0);
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.article{
+    flex: 3;
+    background-color: rgb(179, 203, 224);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px #65aedf;
+    border-radius: 5px;
+}
+
+.article-header{
+    border-bottom: 2px solid #002136;
+    margin-bottom: 15px;
+    padding-bottom: 10px; 
+}
+
+.article-title{
+    color: #012749;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.article-meta {
+    color: rgb(0, 26, 34);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.article-section{
+    margin-bottom: 20px;
+}
+
+.section-title{
+    font-size: 1.4em;
+color: #0d276d;
+margin-bottom: 10px;
+}
+
+.section-text{
+    margin-bottom: 15px;
+    color: rgb(0, 30, 87);
+    line-height: 1.0;
+}
+
+.image-figure{
+    margin-top: 20px 0;
+}
+
+.article-image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.image-caption{
+    text-align: center;
+    font-size: 0.10em;
+    color: #5a70d3;
+    margin-top: 5px;
+}
+
+.sidebar{
+    flex: 1;
+    background-color: rgb(219, 222, 228);
+    padding: 10px;
+    box-shadow: 02px 4px #9fb4b4;
+    border-radius: 5px;
+}
+
+.sidebar-title{
+    font-size: 1.6em;
+    color: rgba(0, 10, 12, 0.788);
+    margin-bottom: 10px;
+}
+
+.sidebar-text{
+    color: #03044b;
+    line-height: 1.5;
+}
+
+.site-footer{
+    background-color: rgb(141, 186, 228);
+    color: rgb(4, 61, 145);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
